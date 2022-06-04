@@ -1,0 +1,442 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" href="css/question.css">
+	<link rel="icon" href="images/movie_clipart.jpg" type="image/icon type">
+	<title>Comedy Quiz/Game</title>
+</head>
+<body >
+
+	<div>
+		<ul class="navigation">
+		  <li><a onclick="endQuiz('home.html')">HOME</a></li>
+		  <li><a onclick="endQuiz('list.html')">LIST</a></li>
+		  <li><a onclick="endQuiz('about.html')">ABOUT</a></li>
+		</ul>
+	</div>
+
+	<div class="row">
+		<div class="column">
+			<h1 id="questNum">Question 1</h1>
+			<img id="image" alt="image_not_found">
+		</div>
+		
+		<div class="column">
+			<div class="passive" id="quest1">
+				<h1>Which movie best describes this phrase?</h1>
+				<h2>Boys will be boys... some longer than others</h2>
+				<table>
+					<tr id="opt1A">
+						<td><input type="radio" name="opt1" value="A"/>A. Grown Ups</td>
+					</tr>
+					<tr id="opt1B">
+						<td><input type="radio" name="opt1" value="B"/>B. The Hangover</td>
+					</tr>
+					<tr id="opt1C">
+						<td><input type="radio" name="opt1" value="C"/>C. Game Night</td>
+					</tr>
+					<tr id="opt1D">
+						<td><input type="radio" name="opt1" value="D"/>D. We're the Millers</td>
+					</tr>
+				</table>
+				<div class="trivia", id="trivia1"> 
+					<h1>The gift</h1>
+					<h2>As a thanks for being in his film, Kevin James, David Spade, Chris Rock, and Rob Schneider 
+					each received a Maserati from Adam Sandler. The average price of a Maserati is around 
+					$75,000, so this was certainly quite the gift. 
+					</h2>
+				</div>
+			</div>
+			
+			<div class="passive" id="quest2">
+				<h1>In which film did this quote appear?</h1>	
+				<h2>Ned Fleming: Who exactly are you dating?</h2>	
+				<table>
+					<tr id="opt2A">
+						<td><input type="radio" name="opt2" value="A"/>A. Why Him</td>
+					</tr>
+					<tr id="opt2B">
+						<td><input type="radio" name="opt2" value="B"/>B. Borat</td>
+					</tr>
+					<tr id="opt2C">
+						<td><input type="radio" name="opt2" value="C"/>C. Johnny English</td>
+					</tr>
+					<tr id="opt2D">
+						<td><input type="radio" name="opt2" value="D"/>D. Ted</td>
+					</tr>
+				</table>
+				<div class="trivia", id="trivia2"> 
+					<h1>Freedom</h1>
+					<h2>According to Megan Mullally, the cast was given free access to improvise as much as they 
+					wanted to and eventually 240 hours of films was shot on camera, which had to be trimmed 
+					to 90 minutes for the final film.
+					</h2>
+				</div>
+			</div>
+			
+			<div class="passive" id="quest3">
+				<h1>Which movie is known for this quote?</h1>
+				<h2>Rose: You're making $500,000 and giving me only $30,000?<br>
+				Casey: $30,000? I'm only getting $1,000!<br>
+				Kenny: You guys are getting paid?
+				</h2>	
+				<table>
+					<tr id="opt3A">
+						<td><input type="radio" name="opt3" value="A"/>A. We're the Millers</td>
+					</tr>
+					<tr id="opt3B">
+						<td><input type="radio" name="opt3" value="B"/>B. Horrible Bosses</td>
+					</tr>
+					<tr id="opt3C">
+						<td><input type="radio" name="opt3" value="C"/>C. Mad Money</td>
+					</tr>
+					<tr id="opt3D">
+						<td><input type="radio" name="opt3" value="D"/>D. Going in Style</td>
+					</tr>
+				</table>
+				<div class="trivia", id="trivia3"> 
+					<h1>A prank</h1>
+					<h2>The cast played a prank on Jennifer Aniston by playing the Friends (1994) theme song 
+					("I'll Be There For You" by The Rembrandts) instead of TLC's "Waterfalls" during a take. 
+					This was the last clip used in the bloopers.
+					</h2>
+				</div>
+			</div>
+			
+			<div class="passive" id="quest4">
+				<h1>In which film did this quote appear?</h1>
+				<h2>Lenore: Rip my bra off like your ripping open your Social Security Check!</h2>		
+				<table>
+					<tr id="opt4A">
+						<td><input type="radio" name="opt4" value="A"/>A. Dirty Grandpa</td>
+					</tr>
+					<tr id="opt4B">
+						<td><input type="radio" name="opt4" value="B"/>B. Grandma's Boy</td>
+					</tr>
+					<tr id="opt4C">
+						<td><input type="radio" name="opt4" value="C"/>C. Rush Hour</td>
+					</tr>
+					<tr id="opt4D">
+						<td><input type="radio" name="opt4" value="D"/>D. The Hustle</td>
+					</tr>
+				</table>
+				<div class="trivia", id="trivia4"> 
+					<h1>Most liked</h1>
+					<h2>The screenplay for ‘Dirty Grandpa’ was featured on the 2011 Hollywood Black List; 
+					a list of the most liked screenplays of the year. It took almost four years for 
+					the film to go into production, with filming starting in Georgia in January 2015.
+					</h2>
+				</div>				
+			</div>
+
+			<div class="passive" id="quest5">
+				<h1>Which movie is known for this quote?</h1>
+				<h2>Agent Tucker: Sir, I don't think he's a Susan<br>
+				Agent: Well your not a linguist Tucker, are you? It's pronounced Shu-Shang, from the Zingzhou region I presume.
+				</h2>	
+				<table>
+					<tr id="opt5A">
+						<td><input type="radio" name="opt5" value="A"/>A. The Spy Next Door</td>
+					</tr>
+					<tr id="opt5B">
+						<td><input type="radio" name="opt5" value="B"/>B. Johnny English Reborn</td>
+					</tr>
+					<tr id="opt5C">
+						<td><input type="radio" name="opt5" value="C"/>C. The Hangover</td>
+					</tr>
+					<tr id="opt5D">
+						<td><input type="radio" name="opt5" value="D"/>D. Borat</td>
+					</tr>
+				</table>
+				<div class="trivia", id="trivia5"> 
+					<h1>A car</h1>
+					<h2>"Royce", the V16 Rolls-Royce Phantom Coupe was developed specifically for this movie at 
+					the behest of Rowan Atkinson, a renowned petrol-head. He went to BMW and requested they put 
+					the V16 engine originally slated for the production V12 Phantom Limo into their 100EX coupe prototype.
+					</h2>
+				</div>
+			</div>
+			
+			<div class="passive" id="quest6">
+				<h1><h1>In which film did this quote appear?</h1></h1>	
+				<h2>Debbie: We're covered in human waste.<br>Rusty: Come on, sweetheart, we don't know that it's human.</h2>	
+				<table>
+					<tr id="opt6A">
+						<td><input type="radio" name="opt6" value="A"/>A. Game Night</td>
+					</tr>
+					<tr id="opt6B">
+						<td><input type="radio" name="opt6" value="B"/>B. Vacation</td>
+					</tr>
+					<tr id="opt6C">
+						<td><input type="radio" name="opt6" value="C"/>C. The Hangover</td>
+					</tr>
+					<tr id="opt6D">
+						<td><input type="radio" name="opt6" value="D"/>D. We're the Millers</td>
+					</tr>
+				</table>
+				<div class="trivia", id="trivia6"> 
+					<h1>Challenge</h1>
+					<h2>Many of the scenes set at Walley World, were filmed at the Six Flags Over Georgia theme park. In this movie 
+					the characters ride a coaster called “Velociraptor.” The Six Flags coaster is actually Blue Hawk. It includes 
+					five inversions, which reportedly was challenging for the actors.
+					</h2>
+				</div>
+			</div>
+			
+			<div class="passive" id="quest7">
+				<h1>In which film did this quote appear?</h1>		
+				<h2>Doug: To a night we will never remember, but the four of us will never forget!</h2>	
+				<table>
+					<tr id="opt7A">
+						<td><input type="radio" name="opt7" value="A"/>A. Going in Style</td>
+					</tr>
+					<tr id="opt7B">
+						<td><input type="radio" name="opt7" value="B"/>B. The Hangover</td>
+					</tr>
+					<tr id="opt7C">
+						<td><input type="radio" name="opt7" value="C"/>C. Just Go With It</td>
+					</tr>
+					<tr id="opt7D">
+						<td><input type="radio" name="opt7" value="D"/>D. Horrible Bosses</td>
+					</tr>
+				</table>
+				<div class="trivia", id="trivia7"> 
+					<h1>Tattoo</h1>
+					<h2>When filming the scene where Stu discovers the tattoo on his face, Bradley Cooper genuinely 
+					broke into laughter, and co-Writer and Director Todd Phillips decided to keep that take in the film.
+					</h2>
+				</div>
+			</div>
+			
+			<div class="passive" id="quest8">
+				<h1>In which film did this quote appear?</h1>
+				<h2>Katherine: Anyway, I got tired to them saying "I have to take a crap" and "I have to take a dump". So I told them it was called a Devlin. And they liked it. And it stuck.
+				</h2>	
+				<table>
+					<tr id="opt8A">
+						<td><input type="radio" name="opt8" value="A"/>A. Bad Moms</td>
+					</tr>
+					<tr id="opt8B">
+						<td><input type="radio" name="opt8" value="B"/>B. Just Go With It.</td>
+					</tr>
+					<tr id="opt8C">
+						<td><input type="radio" name="opt8" value="C"/>C. Mean Girls</td>
+					</tr>
+					<tr id="opt8D">
+						<td><input type="radio" name="opt8" value="D"/>D. The Hustle</td>
+					</tr>
+				</table>
+				<div class="trivia", id="trivia8"> 
+					<h1>Family</h1>
+					<h2>When Adam Sandler and family go across the bridge, the family that tells them that 
+					the bridge is only made for only one person. The two children are Adam Sandler's kids 
+					and the "wife" is Adam Sandler's sister-in-law.
+					</h2>
+				</div>
+			</div>
+			
+			<div class="passive" id="quest9">
+				<h1>In which film did this quote appear?</h1>
+				<h2>Sang: The drop will be made tonight. The amount will be fifty million dollars.<br>
+				Detective James Carter: Fifty million dollars? Man, who do you think you kidnapped? Chelsea Clinton?!
+				</h2>	
+				<table>
+					<tr id="opt9A">
+						<td><input type="radio" name="opt9" value="A"/>A. Johnny English Strikes Again</td>
+					</tr>
+					<tr id="opt9B">
+						<td><input type="radio" name="opt9" value="B"/>B. Let's Be Cops</td>
+					</tr>
+					<tr id="opt9C">
+						<td><input type="radio" name="opt9" value="C"/>C. Rush Hour</td>
+					</tr>
+					<tr id="opt9D">
+						<td><input type="radio" name="opt9" value="D"/>D. 21 Jump Street</td>
+					</tr>
+				</table>
+				<div class="trivia", id="trivia9"> 
+					<h1>First meeting</h1>
+					<h2>Jackie Chan said the scene when his character first meets Chris Tucker's character 
+					was very similar to the first time the actors met in real life at the offices of the 
+					William Morris Agency. Chan said Tucker was talking so fast that after the meeting ended, 
+					Chan told his manager, "I don't understand any of the words coming out of his mouth!" 
+					- a line that was used in the film.
+					</h2>
+				</div>
+			</div>
+			
+			<div class="passive" id="quest10">
+				<h1>In which film did this quote appear?</h1>
+				<h2>Nick: My boss, who we're planning to kill is dying... And you save his life!!!!<br>
+				Dale: Well it sounds bad when you say it like that.
+				</h2>	
+				<table>
+					<tr id="opt10A">
+						<td><input type="radio" name="opt10" value="A"/>A. Office Space</td>
+					</tr>
+					<tr id="opt10B">
+						<td><input type="radio" name="opt10" value="B"/>B. Ted</td>
+					</tr>
+					<tr id="opt10C">
+						<td><input type="radio" name="opt10" value="C"/>C. Horrible Bosses</td>
+					</tr>
+					<tr id="opt10D">
+						<td><input type="radio" name="opt10" value="D"/>D. Why him</td>
+					</tr>
+				</table>
+				<div class="trivia", id="trivia10"> 
+					<h1>Boss</h1>
+					<h2>To promote this film, Warner Bros. Pictures Canada set up a 12-foot Voodoo doll resembling 
+					a corporate boss in downtown Montreal. People were given the chance to vent their office 
+					frustrations on the doll by stabbing and hitting it with large needles. They were also encouraged 
+					to share their best/worst boss story for the chance of winning passes to an advance screening of the film.
+					</h2>
+				</div>
+			</div>
+			
+			<div class="passive" id="quest11">
+				<h1>In which film did this quote appear?</h1>
+				<h2>Ryan: I got promoted to sergeant!<br>
+				Justin: You promoted yourself?<br>
+				Ryan: I felt like I deserved it.</h2>	
+				<table>
+					<tr id="opt11A">
+						<td><input type="radio" name="opt11" value="A"/>A. Johnny English</td>
+					</tr>
+					<tr id="opt11B">
+						<td><input type="radio" name="opt11" value="B"/>B. Police Academy</td>
+					</tr>
+					<tr id="opt11C">
+						<td><input type="radio" name="opt11" value="C"/>C. Let's Be Cops</td>
+					</tr>
+					<tr id="opt11D">
+						<td><input type="radio" name="opt11" value="D"/>D. 21 Jump street</td>
+					</tr>
+				</table>
+				<div class="trivia", id="trivia11"> 
+					<h1>Idea</h1>
+					<h2>Luke Greenfield, director, got the idea of the film when a costume designer brought him an authentic LAPD uniform 
+					to wear for Halloween, which resulted him gaining high confidence.
+					</h2>
+				</div>
+			</div>
+			
+			<div class="passive" id="quest12">
+				<h1>In which film did this quote appear?</h1>
+				<h2>Amy: I had my first kid when I was 20 and I’ve been running late ever since.</h2>	
+				<table>
+					<tr id="opt12A">
+						<td><input type="radio" name="opt12" value="A"/>A. Just Go With It</td>
+					</tr>
+					<tr id="opt12B">
+						<td><input type="radio" name="opt12" value="B"/>B. We're the Millers</td>
+					</tr>
+					<tr id="opt12C">
+						<td><input type="radio" name="opt12" value="C"/>C. Bad Moms</td>
+					</tr>
+					<tr id="opt12D">
+						<td><input type="radio" name="opt12" value="D"/>D. The Heat</td>
+					</tr>
+				</table>
+				<div class="trivia", id="trivia12"> 
+					<h1>Research</h1>
+					<h2>To research the screenplay, Jon Lucas and Scott Moore hosted several dinner parties where they invited 
+					numerous mothers to attend and share their stories. A lot of wine was necessary.</h2>
+				</div>
+			</div>
+			
+			<div class="passive" id="quest13">
+				<h1>In which film did this quote appear?</h1>	
+				<h2>Deputy Chief Hardy: Did you say, You have the right to be an attorney?<br>
+				Schmidt: He could be an attorney if he wants.
+				</h2>	
+				<table>
+					<tr id="opt13A">
+						<td><input type="radio" name="opt13" value="A"/>A. Office Space</td>
+					</tr>
+					<tr id="opt13B">
+						<td><input type="radio" name="opt13" value="B"/>B. Let's Be Cops</td>
+					</tr>
+					<tr id="opt13C">
+						<td><input type="radio" name="opt13" value="C"/>C. Police Academy</td>
+					</tr>
+					<tr id="opt13D">
+						<td><input type="radio" name="opt13" value="D"/>D. 21 Jump Street</td>
+					</tr>
+				</table>
+				<div class="trivia", id="trivia13"> 
+					<h1>Effort</h1>
+					<h2>Jump street Channing Tatum passed on the movie twice before Jonah Hill convinced him to take
+					the role. Also Jonah Hill lost over forty pounds for his role, because he and Channing Tatum
+					were required to do several physically demanding stunts.</h2>
+				</div>
+			</div>
+			
+			<div class="passive" id="quest14">
+				<h1>In which film did this quote appear?</h1>
+				<h2>Jacob: Are you Steve Jobs?<br>
+				Cal: What?<br>
+				Jacob: Hold on a second. Are you the billionaire owner of Apple Computers?<br>
+				Cal: No.<br>
+				Jacob: Oh. Okay. Well, in that case, you got no right to wear New Balance sneakers ever.
+				</h2>
+				<table>
+					<tr id="opt14A">
+						<td><input type="radio" name="opt14" value="A"/>A. Daddy's Home</td>
+					</tr>
+					<tr id="opt14B">
+						<td><input type="radio" name="opt14" value="B"/>B. Why him</td>
+					</tr>
+					<tr id="opt14C">
+						<td><input type="radio" name="opt14" value="C"/>C. Crazy Rich Asians</td>
+					</tr>
+					<tr id="opt14D">
+						<td><input type="radio" name="opt14" value="D"/>D. Crazy, Stupid, Love</td>
+					</tr>
+				</table>
+				<div class="trivia", id="trivia14"> 
+					<h1>Title</h1>
+					<h2>Steve Carell has said that he hates the title of the film, stating that he couldn't imagine a group of college guys 
+					saying, "Five tickets to Crazy, Stupid, Love. please." One of the working titles Carell preferred was "The Wingman," 
+					which he felt was a boring title but more accurately described the film's plot.</h2>
+				</div>
+			</div>
+			
+			<div class="passive" id="quest15">
+				<h1>In which film did this quote appear?</h1>	
+				<h2>Annie: A guy who rents a house this big must be making up for something pretty small, I'd say.<br>
+				Max: No no, I've seen it, it's pretty great.<br>
+				Annie: Well, I tried.”
+				</h2>	
+				<table>
+					<tr id="opt15A">
+						<td><input type="radio" name="opt15" value="A"/>A. Daddy's Home</td>
+					</tr>
+					<tr id="opt15B">
+						<td><input type="radio" name="opt15" value="B"/>B. Grown Ups</td>
+					</tr>
+					<tr id="opt15C">
+						<td><input type="radio" name="opt15" value="C"/>C. Dirty Grandpa</td>
+					</tr>
+					<tr id="opt15D">
+						<td><input type="radio" name="opt15" value="D"/>D. Game Night</td>
+					</tr>
+				</table>
+				<div class="trivia", id="trivia15"> 
+					<h1>Game</h1>
+					<h2>Prior to filming, the cast members had their own "game night" so they could get to know one another and prepare 
+					for the film. They played Clue and Joking Hazard.</h2>
+				</div>
+			</div>
+	
+			<div class="buttons" id="btn_id">
+				<button class="btnElement" title="50/50" onclick="hint()">HINT</button>
+				<button class="btnElement" id="submit-next" onclick="showAnswer()">SUBMIT</button>
+			</div>
+		</div>
+	</div>
+	
+	<script src="java_script/question.js"></script>
+	
+</body>
+</html>

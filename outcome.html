@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" href="css/outcome.css">
+	<link rel="icon" href="images/movie_clipart.jpg" type="image/icon type">
+	<title>Comedy Quiz</title>
+</head>
+<body>
+
+	<div>
+		<ul class="navigation">
+		  <li><a href="home.html">HOME</a></li>
+		  <li><a href="list.html">LIST</a></li>
+		  <li><a href="about.html">ABOUT</a></li>
+		</ul>
+	</div>
+
+	<div class="grid-container">
+		<div class="i1" style="background-image: url('images/movie_clipart.jpg');">
+			<h1 id="scoreTag"></h1>
+			<h1><a href="question.html" class="mainBtn">PLAY AGAIN</a></h1>
+		</div>
+		<div class="i2">
+			<img id="imageTwo" src="images/dirty_grandpa.jpg" alt="dirty_grandpa.jpg">
+		</div>
+		<div class="i3">
+			<img id="imageThree" src="images/johnny_english.jpg" alt="johnny_english">
+		</div>
+		<div class="i4">
+			<img id="imageFour" src="images/vacation.jpg" alt="vacation">
+		</div>
+		<div class="i5">
+			<img id="imageFive" src="images/we_are_the_millers.jpg" alt="we_are_the_millers">
+		</div>
+		<div class="i6">
+			<img id="imageSix" src="images/the_hangover.jpg" alt="the_hangover">
+		</div>
+		<div class="i7">
+			<img id="imageSeven" src="images/rush_hour.jpg" alt="rush_hour">
+		</div>
+		<div class="i8">
+			<img id="imageEight" src="images/horrible_bosses.jpg" alt="horrible_bosses">
+		</div>
+		<div class="i9">
+			<img id="imageNine" src="images/bad_moms.jpg" alt="bad_moms">
+		</div>
+	</div>
+	
+	
+	<script>
+		document.getElementById("scoreTag").innerHTML = localStorage.getItem("scoreStorage") + "/10";
+	</script>
+	<script src="java_script/home.js"></script>
+	
+</body>
+</html>

@@ -1,0 +1,92 @@
+/*==================================== NAVIGATION BAR ====================================*/ 
+.navigation {
+	list-style: none;
+    margin: 0;
+    background: #FF9B42;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: start;
+	padding-inline-start: 0px;
+	font-weight: bold;
+	font-family: Times, serif;
+}
+
+.navigation a {
+    text-decoration: none;
+    display: block;
+	padding: 1em;
+    color: black;
+}
+
+.navigation a:hover {
+    color: white;
+}	
+
+/*==================================== BODY ====================================*/
+img {
+	width: 100%;
+	aspect-ratio: 16/9;
+}
+
+.grid-container {
+	display: grid;
+	grid-template-columns: repeat(4, minmax(0, 1fr));
+	gap: 10px;
+	padding: 10px 0 0 0;
+}
+
+.i1 {
+	grid-area: 1 / 2 / 3 / 4;
+	background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center center;
+	position: relative;
+}
+
+.mainBtn{
+	color: #FF9B42;
+	position: absolute;
+	top: 62%;
+	width: 100%;
+	text-align: center;
+	text-decoration: none;
+	font-size: 2.5vw;
+}
+.mainBtn:hover {
+	font-size: 3.5vw;
+	background-color: rgba(255, 255, 255, 0);
+}
+
+
+/*==================================== RESPONSIVE DESIGN ====================================*/
+@media only screen and (max-width: 1200px) {
+    ul {
+    	justify-content: space-around;
+    }
+ 
+	.grid-container {
+		grid-template-columns: repeat(2, minmax(0, 1fr));
+	}
+	.i1 {
+		grid-column: 1 / span 1;
+		grid-row: 1 / span 1;
+	}
+	.navigation {
+		justify-content: space-around;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+	.grid-container {
+		grid-template-columns: repeat(1, minmax(0, 1fr));
+	}
+	.i1 {
+		height: 45vw;
+	}
+	.mainBtn{
+		font-size: 4vw;
+	}
+	.mainBtn:hover {
+		font-size: 5vw;
+	}
+}

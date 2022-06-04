@@ -1,0 +1,67 @@
+* {
+	box-sizing:border-box; 
+}
+
+/*==================================== NAVIGATION BAR ====================================*/ 
+.navigation {
+	list-style: none;
+    margin: 0;
+    background: #FF9B42;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: start;
+	padding-inline-start: 0px;
+	font-weight: bold;
+	font-family: Times, serif;
+}
+
+.navigation a {
+    text-decoration: none;
+    display: block;
+	padding: 1em;
+    color: black;
+}
+
+.navigation a:hover {
+    color: white;
+}	
+
+/*==================================== BODY ====================================*/ 
+img {
+	width: 100%;
+	aspect-ratio: 16/9;
+}
+
+.column {
+	float: left;
+	width: 33.33%;
+	padding: 5px;
+	overflow: hidden;
+}
+
+h1 {
+	font-size: 1.5vw;
+}
+
+/*==================================== RESPONSIVE DESIGN ====================================*/ 
+@media screen and (max-width: 1200px) {
+	.column {
+		float: left;
+		width: 50%;
+		padding: 5px;
+  	}
+	h1 {
+		font-size: 2.5vw;
+	}
+}
+@media screen and (max-width: 600px) {
+	.navigation {
+		justify-content: space-around;
+    }
+	.column {
+    	width: 100%;
+  	}
+	h1 {
+		font-size: 4vw;
+	}
+}
